@@ -22,4 +22,4 @@ jobs:
           script: |
             cd /home/ubuntu/nodejs-application-deploy-github-actions
             git pull
-            docker compose up -d --build
+            sudo docker compose up -d --build
